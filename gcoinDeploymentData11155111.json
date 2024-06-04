@@ -1,0 +1,10 @@
+{
+  "erc20TokenAddress": {
+    "tokenName": "Responsible Gold Coin",
+    "address": "0x2f54b59cfacc974f23083eda3563c4a7787c216a"
+  },
+  "assetNFT": {
+    "tokenName": "Responsible Gold Asset NFT",
+    "address": "0x14fbe87337f03d67c6f133764b083deade51b982"
+  }
+}

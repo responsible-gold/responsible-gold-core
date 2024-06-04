@@ -1,0 +1,43 @@
+{
+  "name": "q-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typechain": "hardhat typechain",
+    "test": "hardhat test --show-stack-traces --parallel",
+    "compile-contracts": "hardhat compile",
+    "generate-contract-abi": "hardhat generate-contract-bindings --out bindings --pkg bindings --in bindings/bindings-artifacts && ./bindings/generate.sh",
+    "setup-env": "cp .env.example .env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "solidity-docgen": "^0.6.0-beta.36"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "@types/chai": "^4.3.14",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.7",
+    "chai": "^4.4.1",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.22.3",
+    "hardhat-abi-exporter": "^2.10.1",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-deploy": "^0.11.43",
+    "hardhat-gas-reporter": "^1.0.10",
+    "hardhat-storage-layout": "^0.1.7",
+    "hardhat-truffle5": "^1.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
